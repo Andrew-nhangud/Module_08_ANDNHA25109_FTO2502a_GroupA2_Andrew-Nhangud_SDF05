@@ -8,46 +8,67 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-    <footer class="bg-[#659f8f] dark:bg-[#313131]">
-        <div class="container">
-            <footer class="bg-[#659f8f] dark:bg-[#313131]">
-                <div class="container px-6 py-12 mx-auto">
-                    <div class="grid">
-                        <div class="sm:col-span-2">
-                            <h1 class="max-w-lg" >Subscribe.</h1>
-                            <div class="flex">
-                                <input id="email" type="text">
-                                <button class="w-full px-6 py-2.5 bg-white">
-                                    Subscribe
-                                </button>
-                            </div>
-                        </div>
-                        <div>
-                            <p class="text-[#313131]">Quick Link</p>
-                            <div class="flex">
-                                <a href="#">Home</a>
-                                <a href="#">Who We Are</a>
-                                <a href="#">Our Philosophy</a>
-                            </div>
-                        </div>
-                        <div>
-                            <p class="text-[#313131]">Technologies</p>
-                            <div class="">
-                                <a href="#">HTML</a>
-                                <a href="#">CSS</a>
-                                <a href="#">JavaScript</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <hr class="my-6 border-[#d86943]">
-                    
-                    <div class="flex">
-                        <a href="#">
-                            <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="">
-                        </a>
-                    </div>
-    </footer>
-
+    <section class="max-w-[790px] mx-auto mt-[307px] flex flex-col items-center font-serif font text-xl">
+        <h1>Our Apologies For the inconvenience our website is currently under prodution</h1>
+        <h3>Since you are here you can check out our cool footer <strong class="text-[#d86943]">scroll</strong> down</h3>
+      </section>
+      
+      <footer class="bg-[#659f8f] mt-72">
+        <div class="max-w-screen-xl mx-auto p-16"> 
+          <div class="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3">
+            <!-- subcription section -->
+            <section class="pb-7 md:col-span-3 lg:col-span-1 text-[#444343]">
+              <h1 class="text-lg font-bold pb-5">Subscribe to our newsletter for updates.</h1>
+              <label class="flex flex-col gap-3 md:flex-row " for="Address">
+                <input type="text" id="Address" placeholder="Enter Address" class="text-sm bg-white px-3 py-2.5 rounded-md"/>
+                <button class="text-sm bg-[#d86943] text-[#fff] px-3 py-2 rounded-md">Subscribe</button>
+              </label>
+            </section>
+  
+            <!-- quick link -->
+            <section class="text-sm pb-5 text-[#444343]"> 
+              <nav class="flex flex-col lg:justify-self-center">
+                <p class="text-[#585656] pb-5">Quick Link</p>
+                <a href="#">Home</a>
+                <a href="#" class="py-1.5">Who We Are</a>
+                <a href="#">Our Philosophy</a>
+              </nav> 
+            </section>
+  
+            <!-- technologies -->
+            <section class="text-sm pb-5 text-[#444343]">
+              <nav class="flex flex-col lg:justify-self-center">
+                <p class="text-[#585656] pb-5">Technologies</p>
+                <a href="#">HTML</a>
+                <a href="#" class="py-1.5">CSS</a>
+                <a href="#">JavaScript</a>
+              </nav>
+            </section>
+          </div>
+  
+          <hr class="my-6 border-[#d86943] border "/>
+  
+          <div class="flex justify-between">
+            <a href="#">
+              <img
+                class="w-auto h-7"
+                src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg"
+                alt=""
+              />
+            </a>
+            <span class="flex h-7">
+              <a href="https://www.facebook.com/codespaceza/?locale=nl_BE" target="_blank" class="">
+                  <img class="socials-img w-auto h-7" src="https://img.icons8.com/?size=100&id=118490&format=png&color=000000" alt="Facebook Logo">
+              </a>
+              <a href="https://www.instagram.com/codespaceza/?hl=en" target="_blank">
+                  <img class="socials-img w-auto h-7" src="https://img.icons8.com/?size=100&id=84884&format=png&color=000000" alt="Instagram Logo">
+              </a>
+              <a href="https://www.youtube.com/@codespace6881" target="_blank">
+                  <img class="socials-img w-auto h-7" src="https://img.icons8.com/?size=100&id=85433&format=png&color=000000" alt="YouTube Logo">
+              </a>
+          </span>
+          </div>
+        </div>
+      </footer>
 </body>
 </html>
